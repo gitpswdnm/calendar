@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*background: #606060;*/
+	background: linear-gradient(90deg, #6bc2d2 0%, #3b6969 100%);
+	font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+.active-date{
+	background: linear-gradient(90deg, #37aabd 0%, #374C4C 100%);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.calendar {
+	margin: 1rem;
+
+	border: 1px solid black;
+	border-radius: 10px;
+	background: #a7a9a9;
+	box-shadow: 1px 5px 10px 1px rgba(31, 31, 31, 0.5);
+
+	/*position: relative;*/
+}
+
+.calendar th
+{
+	width: 18px;
+	height: 18px;
+	padding: 0.8rem;
+	border: 1px solid black;
+	border-radius: 15%;
+	text-align: center;
+}
+
+.calendar th {
+	background: #01c2ec;
+}
+
+
+
+
+.info,
+.nav {
+	text-align: center;
+	color: white;
+}
+
+.prev,
+.next {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	width: 7rem;
+	height: 3rem;
+	background: #005e6c;
+	border: none;
+	border-radius: 7%;
+	color: white;
+	box-shadow: 0 5px 10px 0 rgba(63, 63, 63, 0.5);
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.prev:hover,
+.next:hover {
+	opacity: 0.8;
+}
+
+.prev:active,
+.next:active {
+	scale: 90%;
+}
+
+.all-dates{
+	width: 18px;
+	height: 18px;
+	padding: 0.8rem;
+	border: 1px solid black;
+	border-radius: 15%;
+	text-align: center;
+	background: #727272;
+	cursor: pointer;
+}
+
+.dates{
+	background: #8fa7ad;
+}
+
+.dates:hover{
+	background: cadetblue;
+}
+
+
+.active-date{
+	background: #2a6f70;
+	color: white;
+}
